@@ -1,0 +1,82 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is retrieval-augmented generation and why is it useful?",
+    "domain": "rag_architecture",
+    "expected_answer": "A retrieval-augmented generation system augments a language model with external evidence retrieved from a corpus before generation.",
+    "relevant_chunks": [],
+    "notes": "Core RAG concept."
+  },
+  {
+    "question_id": 2,
+    "question": "How do embedding models differ in retrieval quality?",
+    "domain": "embeddings",
+    "expected_answer": "Different embedding models capture semantic similarity differently, affecting retrieval precision and recall.",
+    "relevant_chunks": [],
+    "notes": "Model comparison."
+  },
+  {
+    "question_id": 3,
+    "question": "What role does a vector database play in semantic search?",
+    "domain": "vector_databases",
+    "expected_answer": "A vector database stores embeddings and supports nearest-neighbor search over semantically related passages.",
+    "relevant_chunks": [],
+    "notes": "Vector DB concept."
+  },
+  {
+    "question_id": 4,
+    "question": "When should dense retrieval be preferred over keyword retrieval?",
+    "domain": "retrieval_strategies",
+    "expected_answer": "Dense retrieval is more effective when the query and relevant passages share semantic meaning, while keyword retrieval is useful for exact lexical matches.",
+    "relevant_chunks": [],
+    "notes": "Dense versus sparse retrieval."
+  },
+  {
+    "question_id": 5,
+    "question": "What is the effect of chunk size and overlap on retrieval quality?",
+    "domain": "chunking",
+    "expected_answer": "Chunk size and overlap trade off between local context and retrieval coverage; smaller chunks improve granularity but may lose context.",
+    "relevant_chunks": [],
+    "notes": "Chunking methodology."
+  },
+  {
+    "question_id": 6,
+    "question": "How can RAG reduce hallucination in LLM answers?",
+    "domain": "hallucination",
+    "expected_answer": "By grounding the model in retrieved evidence, RAG restricts generation to sources that are likely relevant and can be cited.",
+    "relevant_chunks": [],
+    "notes": "Hallucination reduction."
+  },
+  {
+    "question_id": 7,
+    "question": "What are common limitations of large language models?",
+    "domain": "llm_limitations",
+    "expected_answer": "LLMs can produce confident but incorrect statements, struggle with long-tail facts, and may fail without sufficient grounding.",
+    "relevant_chunks": [],
+    "notes": "LLM limitation."
+  },
+  {
+    "question_id": 8,
+    "question": "Why are rerankers useful in retrieval pipelines?",
+    "domain": "reranking",
+    "expected_answer": "Rerankers improve the ordering of candidate passages by focusing on relevance after an initial candidate set is retrieved.",
+    "relevant_chunks": [],
+    "notes": "Reranking overview."
+  },
+  {
+    "question_id": 9,
+    "question": "How is retrieval evaluated in a research system?",
+    "domain": "retrieval_evaluation",
+    "expected_answer": "Retrieval systems are evaluated with metrics such as recall, precision, MRR, and nDCG across benchmark queries and labeled passages.",
+    "relevant_chunks": [],
+    "notes": "Evaluation metrics."
+  },
+  {
+    "question_id": 10,
+    "question": "What kinds of research findings should be summarized with citations in an answer?",
+    "domain": "research_findings",
+    "expected_answer": "The system should cite the actual passages that support the answer and clearly state when evidence is insufficient.",
+    "relevant_chunks": [],
+    "notes": "Grounded citation requirement."
+  }
+]
